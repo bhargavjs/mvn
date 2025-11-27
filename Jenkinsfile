@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git branch: 'maven',
+                git branch: 'main',
                     url: 'https://github.com/bhargavjs/mvn.git'
             }
         }
